@@ -1,38 +1,54 @@
-.App {
+.id {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 2px solid black;
+  width: 40vw;  
+  margin: 2vh 0;
+}
+.greeting {
+  border: 2px solid black;
+  width: 40vw;
+  font-weight: bold;
+  margin: 2vh 0;
+}
+.random {
+  border: 2px solid black;
+  width: 40vw;
+  font-weight: bold;
+  margin: 2vh 0;  
+}
+.color {
+  border: 2px solid black;
+  width: 40vw;
+  color: white;
+  margin: 2vh 0;  
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.creditCard {
+  width: 22vw;
+  margin: 2vh 0;  
+  text-align: center;
+  border-radius: 10px;
+  text-align: left;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.driver {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  background-color: #455EB5 ;
+  border-radius: 10px;
   color: white;
+  font-size: 1.3vw;
+  width: 60vw;
+  border-radius: 10px;
+  line-height: 1.5vh;
+  text-align: left;
+  
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.driver > img {
+  width: 7vw;
+  height: 10vh;
+  border-radius: 100%;
 }
